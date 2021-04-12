@@ -1,0 +1,93 @@
+.headerClass {
+    width:100%;
+    height:50px;
+    background-color: #003c71;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.headerTitle {
+    position: relative;
+    top:25%;
+}
+.projectForm{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid gray;
+    position: relative;
+    z-index: 0;
+    background: ghostwhite;
+}
+.appBody {
+    margin:60px;
+}
+.applicationBodyHomePage {
+    padding-top: 10px;
+}
+.eachFormInput {
+    padding: 10px 0px 10px 0px;
+}
+.formLabel {
+    min-width: 50px;
+    max-width: 50px;
+    padding-right: 10px;
+}
+.footerClass {
+    width:100%;
+    height:50px;
+    background-color: #003c71;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index:1;
+}
+.appBody {
+    background: #dddd;
+}
+.warningText {
+    color: red;
+}
+.submitButtonClass {
+    padding-top:10px;
+}
+.submitButton{
+    position: relative;
+    padding: 5px;
+    background: darkblue;
+    color: white;
+}
+.footerContent {
+    position: relative;
+    top:25%;
+}
+.savedResultsTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: left;
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-left:10px;
+}
+.tableToDisplayResults {
+    margin:15px;
+    border:1px solid gray;
+    background: white;
+    padding:10px;
+}
+.table {
+    thead {
+        tr {
+            th {
+                text-align: left;
+            }
+        }
+    }
+}
